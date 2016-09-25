@@ -5,7 +5,6 @@
  */
 package ec.edu.espe.math.solids;
 
-import ec.edu.espe.math.shapes.ShapeInterface;
 
 /**
  *
