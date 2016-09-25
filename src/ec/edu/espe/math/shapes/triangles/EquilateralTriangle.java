@@ -16,8 +16,10 @@ public class EquilateralTriangle extends Triangle{
     }
     
     @Override
-    public float CalculatePerimeter() {
+    public Float CalculatePerimeter() {
         return 3*this.sideBase;
     }
+
+    
     
 }

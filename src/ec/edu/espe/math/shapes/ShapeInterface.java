@@ -10,6 +10,6 @@ package ec.edu.espe.math.shapes;
  * @author Jonathan
  */
 public interface ShapeInterface {
-    public abstract float CalculateArea();
-    public abstract float CalculatePerimeter();
+    public abstract Float CalculateArea();
+    public abstract Float CalculatePerimeter();
 }

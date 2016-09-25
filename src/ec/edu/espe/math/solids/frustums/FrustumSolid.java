@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.math.solids.frustoms;
+package ec.edu.espe.math.solids.frustums;
 
 import ec.edu.espe.math.solids.SolidInterface;
 
@@ -11,6 +11,6 @@ import ec.edu.espe.math.solids.SolidInterface;
  *
  * @author Labs-DECC
  */
-public interface FrustomSolid extends SolidInterface{
+public interface FrustumSolid extends SolidInterface{
     
 }

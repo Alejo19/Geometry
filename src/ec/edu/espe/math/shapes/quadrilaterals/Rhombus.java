@@ -23,12 +23,12 @@ public class Rhombus extends Quadrilaterals{
     }
 
     @Override
-    public float CalculateArea() {
+    public Float CalculateArea() {
         return this.bigDiagonal*this.smallDiagonal/2;
     }
 
     @Override
-    public float CalculatePerimeter() {
+    public Float CalculatePerimeter() {
         return this.side*4; 
     }
     

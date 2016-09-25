@@ -19,12 +19,12 @@ public class Trapezoid extends Quadrilaterals{
     }
 
     @Override
-    public float CalculateArea() {
+    public Float CalculateArea() {
         return (this.side+this.minSide)*this.height/2;
     }
 
     @Override
-    public float CalculatePerimeter() {
+    public Float CalculatePerimeter() {
         return this.minSide+this.sideA+this.sideC+this.side;
     }
 }

@@ -35,10 +35,11 @@ public abstract class Triangle implements ShapeInterface {
         this.sideHeight = sideHeight;
     }
     
-     @Override
-    public float CalculateArea() {
+    @Override
+    public Float CalculateArea() {
         return this.sideHeight*this.sideBase/2;
     }
+    
     @Override
     public int hashCode() {
         int hash = 3;

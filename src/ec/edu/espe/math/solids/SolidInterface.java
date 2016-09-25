@@ -13,6 +13,6 @@ import ec.edu.espe.math.shapes.ShapeInterface;
  */
 public interface SolidInterface {
     
-    public abstract float volume();
+    public abstract Float CalculateVolume();
     
 }

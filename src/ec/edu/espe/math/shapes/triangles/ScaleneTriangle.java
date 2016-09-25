@@ -18,11 +18,11 @@ public class ScaleneTriangle extends Triangle{
         this.sideThree = sideThree;
     }
     @Override
-    public float CalculatePerimeter() {
+    public Float CalculatePerimeter() {
         return this.sideBase+this.sideTwo+this.sideThree;
     }
     @Override
-    public float CalculateArea() {
+    public Float CalculateArea() {
         float s=CalculatePerimeter()/2;
         return (float)(Math.sqrt((s-this.sideBase)+(s-this.sideTwo)+(s-this.sideThree)));
     }

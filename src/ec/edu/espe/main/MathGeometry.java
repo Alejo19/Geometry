@@ -24,7 +24,7 @@ import ec.edu.espe.math.shapes.ShapeInterface;
  *
  * @author Jonathan
  */
-public class Geometry {
+public class MathGeometry {
 
     /**
      * @param args the command line arguments

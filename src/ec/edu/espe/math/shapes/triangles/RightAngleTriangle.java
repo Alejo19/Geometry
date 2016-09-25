@@ -17,7 +17,7 @@ public class RightAngleTriangle extends Triangle {
 
     
     @Override
-    public float CalculatePerimeter() {
+    public Float CalculatePerimeter() {
         return this.sideBase+this.sideHeight+(float)(Math.sqrt(Math.pow(this.sideBase,2)+Math.pow(this.sideHeight,2)));
     }
     

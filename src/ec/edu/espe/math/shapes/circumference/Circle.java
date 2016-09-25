@@ -16,12 +16,12 @@ public class Circle extends Circumference{
     }
 
     @Override
-    public float CalculateArea() {
+    public Float CalculateArea() {
         return (float)(Math.PI*Math.pow(radius,2));
     }
 
     @Override
-    public float CalculatePerimeter() {
+    public Float CalculatePerimeter() {
         return (float)(2*Math.PI*this.radius);
     }
     

@@ -5,15 +5,32 @@
  */
 package ec.edu.espe.math.solids.cylinders;
 
+import ec.edu.espe.math.shapes.circumference.Circumference;
+
 /**
  *
  * @author Labs-DECC
  */
-public class Cylinder implements CilindroSolid{
+public class Cylinder extends Circumference implements CylinderSolid{
+    private Float height;
+    
+    public Cylinder(Float height, Float radius) {
+        super(radius);
+        this.height = height;
+}
+    @Override
+    public Float CalculateVolume() {
+        return (float)(Math.PI*Math.pow(this.radius,2)*this.height);
+    }
 
     @Override
-    public float volume() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public Float CalculateArea() {
+        return (float)(2 * Math.PI*this.radius*(this.radius + this.height));
+    }
+
+    @Override
+    public Float CalculatePerimeter() {
+        return null;
     }
     
 }

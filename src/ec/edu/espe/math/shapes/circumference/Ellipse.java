@@ -18,12 +18,12 @@ public class Ellipse extends Circumference{
     }
 
     @Override
-    public float CalculateArea() {
+    public Float CalculateArea() {
         return (float)(Math.PI*this.radius*this.otherRadius);
     }
 
     @Override
-    public float CalculatePerimeter() {
+    public Float CalculatePerimeter() {
         return (float)(2*Math.PI*Math.sqrt((Math.pow(this.radius, 2)+Math.pow(this.otherRadius,2))/2));
     }
     

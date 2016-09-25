@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.math.solids.cones;
+package ec.edu.espe.math.solids.cylinders;
 
 import ec.edu.espe.math.solids.SolidInterface;
 
 /**
  *
- * @author Labs-DECC
+ * @author Jonathan
  */
-public interface ConoSolid extends SolidInterface {
+public interface CylinderSolid extends SolidInterface{
     
 }

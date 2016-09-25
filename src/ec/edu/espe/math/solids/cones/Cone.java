@@ -3,30 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.math.solids.cirfumference;
+package ec.edu.espe.math.solids.cones;
 
 import ec.edu.espe.math.shapes.circumference.Circumference;
-import ec.edu.espe.math.shapes.circumference.Ellipse;
+import ec.edu.espe.math.solids.SolidInterface;
 
 /**
  *
  * @author Jonathan
  */
-public class Sphere extends Circumference implements CircumferenceSolid{
-
-    private Float hight;
+public class Cone extends Circumference implements ConeSolid{
+    private Float side;
+    private Float height;
     
-    public Sphere(Float higth, Float radio) {
+    public Cone(Float side, Float height, Float radio) {
         super(radio);
-        this.hight = higth;
-    }
-    public Sphere(Float radio) {
-        super(radio);
+        this.side = side;
+        this.height = height;
 }
-    
+
     @Override
     public Float CalculateArea() {
-        return (float)(2*Math.PI*this.radius*(this.radius+ this.hight));
+        return (float)Math.PI*this.radius*(this.side+this.radius);
     }
 
     @Override
@@ -36,9 +34,7 @@ public class Sphere extends Circumference implements CircumferenceSolid{
 
     @Override
     public Float CalculateVolume() {
-        return (float)((4/3)*(Math.PI)*Math.pow(this.radius,3));
+        return (float)(1/3*Math.PI*Math.pow(this.radius,3)*this.height);
     }
-    
-    
     
 }

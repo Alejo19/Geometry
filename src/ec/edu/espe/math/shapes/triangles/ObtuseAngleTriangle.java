@@ -18,7 +18,7 @@ public class ObtuseAngleTriangle extends Triangle{
         this.sideThree = sideThree;
     }
     @Override
-    public float CalculatePerimeter() {
+    public Float CalculatePerimeter() {
         return sideBase+sideTwo+sideThree;
     }
     

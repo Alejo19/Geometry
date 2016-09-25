@@ -19,12 +19,12 @@ public class Parallelogram extends Quadrilaterals {
     }
 
     @Override
-    public float CalculateArea() {
+    public Float CalculateArea() {
         return this.height*this.side;
     }
 
     @Override
-    public float CalculatePerimeter() {
+    public Float CalculatePerimeter() {
         return this.sideI*2+this.side*2;
     }
     

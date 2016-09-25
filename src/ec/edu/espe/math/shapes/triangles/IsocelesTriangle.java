@@ -18,7 +18,7 @@ public class IsocelesTriangle extends Triangle{
     }
 
     @Override
-    public float CalculatePerimeter() {
+    public Float CalculatePerimeter() {
         return this.sideBase+this.sideTwoThree*2;
     }
     
