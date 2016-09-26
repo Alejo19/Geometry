@@ -5,6 +5,7 @@
  */
 package ec.edu.espe.math.shapes.triangles;
 
+import ec.edu.espe.math.geometry.shapes.triangles.EquilateralTriangle;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;

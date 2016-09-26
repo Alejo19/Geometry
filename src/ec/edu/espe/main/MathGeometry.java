@@ -7,18 +7,18 @@ package ec.edu.espe.main;
 
 import ec.edu.espe.util.GeometricConstants;
 import ec.edu.espe.util.PrinterUtil;
-import ec.edu.espe.math.shapes.circumference.Circle;
-import ec.edu.espe.math.shapes.circumference.Ellipse;
-import ec.edu.espe.math.shapes.quadrilaterals.Parallelogram;
-import ec.edu.espe.math.shapes.quadrilaterals.Rectangle;
-import ec.edu.espe.math.shapes.quadrilaterals.Rhombus;
-import ec.edu.espe.math.shapes.quadrilaterals.Square;
-import ec.edu.espe.math.shapes.quadrilaterals.Trapezoid;
-import ec.edu.espe.math.shapes.triangles.EquilateralTriangle;
-import ec.edu.espe.math.shapes.triangles.IsocelesTriangle;
-import ec.edu.espe.math.shapes.triangles.ObtuseAngleTriangle;
-import ec.edu.espe.math.shapes.triangles.RightAngleTriangle;
-import ec.edu.espe.math.shapes.ShapeInterface;
+import ec.edu.espe.math.geometry.shapes.circumference.Circle;
+import ec.edu.espe.math.geometry.shapes.circumference.Ellipse;
+import ec.edu.espe.math.geometry.shapes.quadrilaterals.Parallelogram;
+import ec.edu.espe.math.geometry.shapes.quadrilaterals.Rectangle;
+import ec.edu.espe.math.geometry.shapes.quadrilaterals.Rhombus;
+import ec.edu.espe.math.geometry.shapes.quadrilaterals.Square;
+import ec.edu.espe.math.geometry.shapes.quadrilaterals.Trapezoid;
+import ec.edu.espe.math.geometry.shapes.triangles.EquilateralTriangle;
+import ec.edu.espe.math.geometry.shapes.triangles.IsocelesTriangle;
+import ec.edu.espe.math.geometry.shapes.triangles.ObtuseAngleTriangle;
+import ec.edu.espe.math.geometry.shapes.triangles.RightAngleTriangle;
+import ec.edu.espe.math.geometry.shapes.ShapeInterface;
 
 /**
  *
